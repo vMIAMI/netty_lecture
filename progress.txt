@@ -6,3 +6,8 @@
 2020/02/28 --16P完结 protocbuf的使用
 2020/02/29 --18P完结 管理c/s通用协议&thrift,git subtree todo：学习git
 2020/03/02 --21P完结 todo：thrift官方文档，gRPC官方文档
+2020/03/05 --40P
+        IO：面向stream。 装饰器模式decorator在IO包中的应用-灵活拓展对象（而不是类）的功能。
+        NIO：面向 selector - channel - buffer。
+             flip()读/写反转。
+             directByteBuffer:直接引用堆外内存，不用在每次使用时都将数据拷贝到native堆中，从而达到零拷贝的目的。
